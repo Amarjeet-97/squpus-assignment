@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "email": "pratibha@gmail.com",
+      "password": "$2a$10$9Zmp8bJqkzhOeeNakL6.hOxfaTsS/Vhh4gNgEeGBZo8VtVEZIAc0.",
+      "name": "Pratibha Kumari",
+      "id": 1
+    },
+    {
+      "email": "amar@test.com",
+      "password": "$2a$10$9sWATxOL/wUBZvO/RHvErO8L.zk.sytvWPP3L4PRBamqkm/ac/eoi",
+      "name": "Amarjeet Kumar",
+      "id": 2
+    },
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$wGH45Zob0w1UF02ji5yY6.oTGb2UcEaG/8j2wQ/PUfPvGh.OW4lzO",
+      "name": "test",
+      "id": 3
+    },
+    {
+      "email": "pratibha@gmail.comm",
+      "password": "$2a$10$Wgl85Zyz6U2imFKadhCek.gVOYuQyBdvvsHDCnKIHiZ0jxDgNlMRy",
+      "name": "jh",
+      "id": 4
+    },
+    {
+      "email": "pratibha@gmail.comkkk",
+      "password": "$2a$10$8MqMwhPbhL0IlSOW2K5sbOtRf2117vWtIvSBPcZqSCjxAeVRM8..y",
+      "name": "jnjf",
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "userid": "1",
+      "name": "c10"
+    }
+  ]
+}
