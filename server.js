@@ -1,15 +1,10 @@
-const jsonServer= require("json-server");
-const { json } = require("react-router-dom");
-const server= jsonServer.create("./Endpoints.json");
-const middlewares= jsonServer.defaults({
-    static:"./build",
-})
-const port= process.env.PORT || 8080;
-server.use({
-    "/api/*":"/$1",
-})
-
-server.use(router);
-server.listen(port,()=>{
-    console.log(`Server is running on ${port}`)
+const jsonServer = require('json-server')
+const server = jsonServer.create()
+const router = jsonServer.router('Endpoints.json')
+const middlewares = jsonServer.defaults()
+ 
+server.use(middlewares)
+server.use('', router)
+server.listen(process.env.PORT || 8080, () => {
+  console.log('JSON Server is running')
 })
