@@ -16,7 +16,7 @@ const Registration = () => {
         dispatch(showLoading());
         e.preventDefault();
         let regObj= {name,email,password}
-        fetch("http://localhost:8080/register",{
+        fetch("https://squpus-assignment.onrender.com/",{
             method:"POST",
             headers:{'content-type':'application/json'},
             body:JSON.stringify(regObj)
